@@ -1,0 +1,53 @@
+.midnight-container {
+  width: 1320px;
+  height: 600px;
+  margin: 70px auto;
+  border-radius: 15px;
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
+    linear-gradient(to right, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
+    url("../images/Vectorrr.png") center / cover no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.midnight-container img {
+  width: 320px;
+  height: 465px;
+}
+.midnight {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.midnight h1 {
+  width: 642px;
+  height: 176px;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.38;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.midnight p {
+  width: 697px;
+  height: 60px;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.67;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+}
+.midnight .btn {
+  width: 115px;
+  height: 30px;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ffffff;
+}
