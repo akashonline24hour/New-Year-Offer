@@ -1,0 +1,38 @@
+.discount-container {
+  margin-top: 80px;
+  font-family: "inter", sans-serif;
+}
+.discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.discount h1 {
+  color: #ff0000;
+  font-size: 88px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.holiday {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.holiday h2 {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ff0000;
+}
+.holiday p {
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.holiday img {
+  width: 100%;
+}
