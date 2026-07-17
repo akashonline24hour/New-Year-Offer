@@ -1,3 +1,4 @@
+/* Time&Date Section */
 .time-date-container {
   width: 1320px;
   height: 482px;
@@ -5,8 +6,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  margin: 100px auto;
   border: #ff0000 2px solid;
   border-radius: 15px;
   box-shadow:

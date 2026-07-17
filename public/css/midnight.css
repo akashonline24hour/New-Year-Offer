@@ -1,7 +1,7 @@
+/* Midnight Section */
 .midnight-container {
   width: 1320px;
   height: 600px;
-  margin: 70px auto;
   border-radius: 15px;
   background:
     linear-gradient(to right, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
@@ -10,7 +10,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 50px;
 }
 .midnight-container img {
   width: 320px;
