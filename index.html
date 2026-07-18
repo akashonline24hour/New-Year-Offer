@@ -29,6 +29,7 @@
     />
     <!-- CSS File Link -->
     <link rel="stylesheet" href="./public/css/global.css" />
+    <link rel="stylesheet" href="./public/css/header.css" />
     <link rel="stylesheet" href="./public/css/banner.css" />
     <link rel="stylesheet" href="./public/css/discount.css" />
     <link rel="stylesheet" href="./public/css/midnight.css" />
@@ -42,9 +43,33 @@
     <title>New Year Offer</title>
   </head>
   <body>
+    <!-- Header Section Start -->
+    <header class="header">
+      <div class="header-container">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="index.html">
+            <img src="./public/images/new-year-logo.png" alt="Logo" />
+          </a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#discount">Offers</a></li>
+            <li><a href="#coming-soon">Coming Soon</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#newsletter">Subscribe</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header Section End -->
     <main class="container">
       <!-- Banner Section Start -->
-      <section class="banner-container">
+      <section class="banner-container" id="banner">
         <h1>New Year Offer</h1>
         <div class="banner">
           <h2>Happy New Year</h2>
@@ -53,7 +78,7 @@
       </section>
       <!-- Banner Section End -->
       <!-- Discount Section Start -->
-      <section class="discount-section">
+      <section class="discount-section" id="discount">
         <div class="discount-container">
           <h1>65% OFF</h1>
 
@@ -71,7 +96,7 @@
       </section>
       <!-- Discount Section End -->
       <!-- Midnight Section Start -->
-      <section class="midnight-container">
+      <section class="midnight-container" id="midnight">
         <div class="midnight">
           <h1>Welcome to midnight party</h1>
           <p>
@@ -85,7 +110,7 @@
       </section>
       <!-- Midnight Section End -->
       <!-- Time&Date Section Start -->
-      <section class="time-date-container">
+      <section class="time-date-container" id="time-date">
         <div class="time-date-total">
           <div class="time-date">
             <p><span>Place:</span> New Park Hotel</p>
@@ -96,8 +121,8 @@
         </div>
       </section>
       <!-- Time&Date Section End -->
-      <!-- *Coming Soon Section Start -->
-      <section class="coming-soon">
+      <!-- Coming Soon Section Start -->
+      <section class="coming-soon" id="coming-soon">
         <div class="coming-soon-container">
           <!-- Coming Soon Left -->
           <div class="coming-soon-left">
@@ -128,7 +153,7 @@
       </section>
       <!-- Coming Soon Section End -->
       <!-- Holiday Sale Section Start -->
-      <section class="holiday-sale">
+      <section class="holiday-sale" id="holiday-sale">
         <div class="holiday-content-container">
           <div class="holiday-content">
             <h4>WHAT IS FUNCTIONAL</h4>
@@ -164,7 +189,7 @@
       </section>
       <!-- Holiday Sale Section End -->
       <!-- Portfolio Section Start -->
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="portfolio-container">
           <h4>THE BEST GIFTS</h4>
 
@@ -205,7 +230,7 @@
       </section>
       <!-- Portfolio Section End -->
       <!-- Newsletter Section Start -->
-      <section class="newsletter">
+      <section class="newsletter" id="newsletter">
         <div class="newsletter-container">
           <img
             src="./public/images/Newsletter-Icon.png"
@@ -230,7 +255,7 @@
       <!-- Newsletter Section End -->
     </main>
     <!-- Footer Section Start -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="footer-container">
         <!-- Footer Top -->
         <div class="footer-top">
