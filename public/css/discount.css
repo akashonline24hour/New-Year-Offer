@@ -1,38 +1,48 @@
 /* Discount Section */
+
+.discount-section {
+  width: 1320px;
+  margin: 80px auto;
+  font-family: "Inter", sans-serif;
+}
+
 .discount-container {
-  font-family: "inter", sans-serif;
+  text-align: center;
 }
-.discount {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-.discount h1 {
-  color: #ff0000;
+
+/* 65% OFF */
+
+.discount-container h1 {
   font-size: 88px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-.holiday {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-.holiday h2 {
-  font-size: 15px;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-weight: 700;
   color: #ff0000;
+  margin-bottom: 40px;
 }
-.holiday p {
-  font-size: 35px;
-  font-weight: 800;
+
+/* OUR HOLIDAY DEALS ARE BETTER */
+
+.discount-container h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
-.holiday img {
-  width: 100%;
+
+/* ALL CATEGORIES */
+
+.discount-container h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #070211;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+/* Image */
+
+.discount-image img {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
 }

@@ -1,0 +1,73 @@
+/* Holidy Sale Section */
+.holiday-sale {
+  width: 1320px;
+  height: 986px;
+}
+/* Holiday Container */
+.holiday-content-container {
+  width: 1320px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Holiday Content */
+.holiday-content {
+  width: 1070px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.holiday-content h4 {
+  font-family: "inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #070211;
+}
+.holiday-content h1 {
+  color: #000000;
+  font-size: 88px;
+  font-weight: 900;
+  font-size: 72px;
+  text-align: center;
+}
+.holiday-content h1 span {
+  color: #ff0000;
+}
+.holiday-content p {
+  font-family: "inter", sans-serif;
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+}
+/* Holiday Banner */
+.holiday-banner {
+  position: relative;
+  height: 665px;
+}
+/* Gift Box */
+.gift-box {
+  position: absolute;
+  width: 675px;
+  height: 577px;
+  z-index: 1;
+}
+/* Discount */
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* Shopping */
+.shopping {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
