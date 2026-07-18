@@ -1,0 +1,51 @@
+/* Portfolio Section */
+
+.portfolio {
+  width: 1320px;
+  margin: 120px auto;
+}
+
+.portfolio-container h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.portfolio-container h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+  margin-bottom: 22px;
+}
+
+.portfolio-container p {
+  width: 890px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #07021199;
+  margin-bottom: 48px;
+}
+
+/* Gallery */
+
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.05);
+}
